@@ -1,0 +1,29 @@
+{
+    "Python": {
+        "icon": "python",
+        "snippets":[{
+        "Вывод сообщения в консоль": {
+            "tag": ["asd"],
+            "description" : "Вывод сообщения в консоль",
+            "code": "print(\"Hello\")"
+        },
+        "Математические операции": {
+            "tag": ["print","console"],
+            "description" : "сложение чисел",
+            "code": "print(1 + 2)"
+        }
+        }
+        ]
+    },
+    "JavaScript":{
+        "icon": "javascript",
+        "snippets":[{
+        "Вывод сообщения в консоль": {
+            "tag": ["console"],
+            "description" : "Вывод123 сообщения в консоль",
+            "code": "console.log(\"123\")"
+        }
+        }
+        ]
+    }
+}

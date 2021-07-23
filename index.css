@@ -1,0 +1,104 @@
+/* Основной div */
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    /* Justify-content: space-between; */
+    height: 97vh;
+    /* margin-bottom: 5%;
+    margin-top: 5%; */
+    }
+      
+/* Блок с  древом заметок */
+.tree_block{
+    background-color: orange;
+    height: 100%;
+    width: 50%;
+}
+
+/* Блок с октрытой заметкой */
+.code_block{
+    background-color: red;
+    height: 100%;
+    width: 50%;
+   
+}
+
+/* заголовок блока древа */
+.tree_head{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    Justify-content: space-between;
+    margin-top: 1%;
+
+}
+.tree_head#search_tree{
+    flex-grow: 6;
+}
+
+
+/* Кнопка добавления заметки */
+#add_snippets{
+
+}
+/* Срока поиска по древу */
+#search_tree{
+    width: 90%;
+    
+    /* margin-right: 70%; */
+}
+
+#log{
+    visibility: hidden;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+  }
+
+#snippets_button{
+    text-align: left;
+    margin-left: 10%;
+    width: 100%;
+    background: transparent;
+    border: calc(var(--borderWidth) * 1px) solid var(--buttonColor);
+    box-shadow: calc(var(--boxShadowDepth) * 1px) calc(var(--boxShadowDepth) * 1px) 0 #888;
+    color: var(--buttonColor);
+    cursor: pointer;
+    font-size: calc(var(--fontSize) * 1rem);
+    font-weight: bold;
+    outline: transparent;
+    padding: calc(var(--verticalPadding) * 1px) calc(var(--horizontalPadding) * 1px);
+    transition: box-shadow 0.15s ease;
+}
+#snippets_button:active {
+  
+    transition: background 0s;
+  }
+/* #snippets_button:hover {
+    color: blue;
+  } */
+#snippets_button:hover {
+    color: #fff;    
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+#snippets_button:nth-child(1):hover { 
+  background: blue;
+}
+
+
+#snippets_button:focus {     
+background-color:yellow;    
+}
+.language_title{
+    margin-left: 5%;
+}
+.nav-title{
+    margin-left: 5%;
+    margin-right: 5%;
+}
